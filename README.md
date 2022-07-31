@@ -1,7 +1,7 @@
 # Health Checks
 
 
-**pyitau**
+### pyitau
 - Status page: https://pyitau.betteruptime.com/
 - PyPI: https://pypi.org/project/pyitau
 - Github: https://github.com/lucasrcezimbra/pyitau
@@ -16,4 +16,5 @@ cd healthchecks
 python -m venv .venv
 pip install -r requirements-dev.txt
 pre-commit install
+cp contrib/env-sample .env
 ```

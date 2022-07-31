@@ -1,5 +1,13 @@
 # Health Checks
 
+
+**pyitau**
+- Status page: https://pyitau.betteruptime.com/
+- PyPI: https://pypi.org/project/pyitau
+- Github: https://github.com/lucasrcezimbra/pyitau
+- Documentation: https://pyitau.readthedocs.io/
+
+
 ## Setup
 
 ```shell

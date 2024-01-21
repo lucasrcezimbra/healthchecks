@@ -15,6 +15,7 @@ def run():
         account=config("ITAU_ACCOUNT"),
         account_digit=config("ITAU_ACCOUNT_DIGIT"),
         password=config("ITAU_PASSWORD"),
+        holder_name=config("ITAU_HOLDER_NAME", default=None),
     )
 
     check(config("PYITAU_AUTHENTICATE"), itau.authenticate)
